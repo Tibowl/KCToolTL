@@ -100,7 +100,7 @@
     "積載ボーキサイト": "Loaded bauxite",
 
     "航空戦": "Air battle",
-    "触接倍率": "Touch rate",
+    "触接倍率": "Contact damage modifier",
     "砲撃戦倍率": "Air/Battle rate",
     "制空値": "Air power",
     "総制空値": "Total air power",
@@ -132,6 +132,12 @@
     "中破時": "Chuuha",
     "発数": "# Attacks",
     "運": "Luck",
+    "ｶｯﾄｲﾝ(魚雷)": "Torpedo CI",
+    "ｶｯﾄｲﾝ(主砲)": "Main Gun CI",
+    "ｶｯﾄｲﾝ(主魚)": "Mixed CI",
+    "ｶｯﾄｲﾝ(主副)": "Secundary CI",
+    "連撃": "Double Attack",
+    "単発": "Single Shot",
 
     "索敵＆輸送": "LoS and TP",
     "艦隊総索敵": "Total LoS",
