@@ -69,6 +69,7 @@ function download(url, callback) {
     xmlhttp.open("GET", url, true);
     xmlhttp.send();
 }
-download('https://raw.githubusercontent.com/KC3Kai/kc3-translations/master/data/en/items.json', (data) => gItems.forEach((a) => a.name = data[a.name]||a.name));
-download('https://raw.githubusercontent.com/KC3Kai/kc3-translations/master/data/en/ships.json', (data) => gShips.forEach((a) => a.name = data[a.name]||a.name));
+
+download('https://raw.githubusercontent.com/KC3Kai/kc3-translations/master/data/en/items.json', (data) => window.gItems && gItems.forEach((a) => a.name = data[a.name]||a.name));
+download('https://raw.githubusercontent.com/KC3Kai/kc3-translations/master/data/en/ships.json', (data) => window.gShips && gShips.forEach((a) => a.name = data[a.name]||a.name));
 download('https://raw.githubusercontent.com/Tibo442/DeckbuilderTL/master/Translations.json?v='+new Date().getTime());
