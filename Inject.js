@@ -61,7 +61,7 @@ function download(url, callback) {
 
             let newData = JSON.parse(xmlhttp.responseText);
             Object.keys(newData).forEach((k) => transList[k] = newData[k]);
-            if(!updateCount)
+            if(updateCount == 2)
                 translate();
             updateCount++;
         }
