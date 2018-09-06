@@ -183,5 +183,62 @@
     "昼ｶｯﾄｲﾝ": "Day CutIn",
     "耐久": "HP",
 
+    "シーン選択": "Select type",
+    "クリティカル": "Critical",
+    "攻撃内容": "Attack info",
+    "通常攻撃": "Normal Attack",
+    "徹甲弾特効": "AP special",
+    "副砲": "Secondary gun ",
+    "電探装": "Radar ",
+    "対地特効": "Installation",
+    "装備数": " equipped",
+    "装備改修": "Equip improvements",
+    "被弾艦": "Enemy ship ",
+    "交戦形態": "Engagement",
+    "砲撃戦 (空母系)": "Shelling (Carrier)",
+    "スロ": "Slot",
+    "直接入力": "Manual input",
+
+    "空母機動部隊": "CarrierTF",
+    "水上打撃部隊": "SurfaceTF",
+    "輸送護衛部隊": "TransportE",
+    "連合艦隊補正を行わない": "No type correction",
+
+    "単縦": "Line Ahead",
+    "複縦": "Double Line",
+    "輪形": "Diamond",
+    "梯形": "Echelon",
+    "単横": "Line Abreast",
+    "警戒": "Spoon",
+    "後方": "back",
+    "前方": "front",
+    "第一": "First",
+    "敵攻撃": "Enemy formation",
+
+    "損傷度": "Damage state",
+    "小破以下": "Normal",
+    "中破": "Chuuha",
+    "大破": "Taiha",
+
+    "弾薬残量": "Ammo remaining",
+    "連合艦隊": "Combined fleet",
+
+    "空母": "Aircraft Carrier",
+
+    "その他": "Other",
+    "通常海域敵艦": "Normal map ships",
+    "前イベント登場艦": "Previous event ships",
+
+    "機体": "Aircraft",
+    "倍率": "Multiplier",
+    "機体種別": "Aircraft type",
+    "搭載数": "Amount equipped",
+    "触接": "Contact",
+    "爆撃機": "Bomber",
+    "噴式爆撃機": "Jets",
+    "噴式種別": "Attack type",
+    "弾着観測": "Attack type",
+    "噴式強襲": "Jet phase",
+
     "_No comma at end placeholder": ""
 }

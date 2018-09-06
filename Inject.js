@@ -31,12 +31,20 @@ function handleText(textNode) {
         textNode.isHandeled = updateCount;
     }
 }
-function handleTitle(titleNode) {
-    if(titleNode.isHandeled != updateCount && titleNode.title) {
-        let v = translateText(titleNode.title)
-        if(titleNode.title !== v)
-            titleNode.title = v;
-        titleNode.isHandeled = updateCount;
+function handleTitle(node) {
+    if(node.isHandeled != updateCount){
+        if(node.title) {
+            let v = translateText(node.title)
+            if(node.title !== v)
+                node.title = v;
+            node.isHandeled = updateCount;
+        }
+        if(node.label) {
+            let v = translateText(node.label)
+            if(node.label !== v)
+                node.label = v;
+            node.isHandeled = updateCount;
+        }
     }
 }
 function translateText(v) {
@@ -45,7 +53,7 @@ function translateText(v) {
         var strippedV = v;
         for (var i = 0; i < prevProp.length; i++) 
             strippedV = strippedV.replace(prevProp[i], "");
-        if (/*transList.hasOwnProperty(prop) && v.includes(prop) && */ !v.split(prop)[0].match(/ \($/) && strippedV.includes(prop)) {
+        if (/*transList.hasOwnProperty(prop) && v.includes(prop) && */ strippedV.includes(prop)) {
             v = v.replace(prop, transList[prop])
             prevProp.push(prop);
         }
