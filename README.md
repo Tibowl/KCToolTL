@@ -4,12 +4,12 @@
 ## Bookmarklet
 Add the following code as a bookmark:
 ```js
-javascript:$.get("https://raw.githubusercontent.com/Tibo442/DeckbuilderTL/master/Inject.js?v="+new Date().getTime(), eval)
+javascript:$.get("https://raw.githubusercontent.com/Tibowl/DeckbuilderTL/master/Inject.js?v="+new Date().getTime(), eval)
 ```
 
 Alternative (Could potentionally work on other sites):
 ```js
-javascript:var $TL=new XMLHttpRequest;$TL.open("GET","https://raw.githubusercontent.com/Tibo442/DeckbuilderTL/master/Inject.js?v="+new Date().getTime());$TL.onreadystatechange=()=>eval($TL.responseText);$TL.send();
+javascript:var $TL=new XMLHttpRequest;$TL.open("GET","https://raw.githubusercontent.com/Tibowl/DeckbuilderTL/master/Inject.js?v="+new Date().getTime());$TL.onreadystatechange=()=>eval($TL.responseText);$TL.send();
 ```
 
 ![Bookmarklet install](https://i.imgur.com/NQkuAmb.png)
@@ -22,13 +22,13 @@ Click on the bookmark to inject the translator.
 3. Execute the following script:
 
 ```js
-$.get("https://raw.githubusercontent.com/Tibo442/DeckbuilderTL/master/Inject.js?v="+new Date().getTime(), eval)
+$.get("https://raw.githubusercontent.com/Tibowl/DeckbuilderTL/master/Inject.js?v="+new Date().getTime(), eval)
 ```
 
 Alternative:
 ```js
 var $TL=new XMLHttpRequest;
-$TL.open("GET","https://raw.githubusercontent.com/Tibo442/DeckbuilderTL/master/Inject.js?v="+new Date().getTime());
+$TL.open("GET","https://raw.githubusercontent.com/Tibowl/DeckbuilderTL/master/Inject.js?v="+new Date().getTime());
 $TL.onreadystatechange = () => eval($TL.responseText);
 $TL.send();
 ```
