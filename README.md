@@ -32,3 +32,14 @@ $TL.open("GET","https://raw.githubusercontent.com/Tibowl/DeckbuilderTL/master/In
 $TL.onreadystatechange = () => eval($TL.responseText);
 $TL.send();
 ```
+
+## Site support
+### Supported sites:
+- http://kancolle-calc.net/deckbuilder.html
+- https://db.kcwiki.org/drop/
+
+### Todo/WIP
+- https://noro6.github.io/kcTools/
+- https://dque.github.io/seiku/
+- http://kancollecalc.jp/air_supremacy.html?
+- https://kcjervis.github.io/jervis/#/
