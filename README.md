@@ -31,9 +31,10 @@ $.get("https://raw.githubusercontent.com/Tibowl/KCToolTL/master/Inject.js?v="+ne
 ### Supported sites:
 - http://kancolle-calc.net/deckbuilder.html
 - https://db.kcwiki.org/drop/
+- https://noro6.github.io/kcTools/
 
 ### Todo/WIP
-- https://noro6.github.io/kcTools/
 - https://dque.github.io/seiku/
 - http://kancollecalc.jp/air_supremacy.html
 - https://kcjervis.github.io/jervis/#/
+- https://yuich1.github.io/kcHitTool/#
